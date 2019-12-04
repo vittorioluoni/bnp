@@ -1,0 +1,9 @@
+<root>
+	<conto Numero="123">
+		<carta Numero="abc123" />
+		<carta Numero="xyz456" />
+	</conto>
+	<conto Numero="987">
+		<carta Numero="abc456" />
+	</conto>
+</root>

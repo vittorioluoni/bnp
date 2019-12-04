@@ -1,0 +1,19 @@
+Per finanziare le carte di credito dei suoi Commerciali, l'importante istituto di credito Big Bank usa dei conti correnti specifici.
+A questi conti sono associate le carte di credito che i Commerciali utilizzano per le spese di rappresentanza.
+La disponibilità monetaria dei conti viene rimpinguata attraverso dei Movimenti a credito.
+Tuttavia gli stessi conti sono utilizzati per altre spese relative alla funzione commerciale (es. i costi di trasporto), che vengono detratte con movimenti a Debito.
+
+Ogni mese è richiesto un controllo di disponibilità monetaria residua sui conti, attraverso un software ad hoc.
+Il software deve visualizzare, per ogni mese e per ogni conto:
+- i movimenti sul conti ed il loro totale
+- i movimenti sulle carte associate al conto ed il loro totale
+- l'eventuale squadratura tra i totali.
+
+Il sofware deve permettere il caricamento:
+- del file carte_conti.xml con l'associazione tra carte e conti correnti
+- del file movimenti_cc.txt, descritto dalle specifiche movimenti_cc_spec.txt
+- del file spese_carta.csv
+Deve essere possibile variare i file (gli esempi possono essere prodotti anche dallo sviluppatore).
+
+Per compliance con gli standard della Big Bank l'applicativo deve essere sviluppato in Java/C# e può essere una Console o una Web Application.
+Viene richiesto il codice applicativo ed una suite di test unitari a corredo.

@@ -1,0 +1,4 @@
+10, Numero di conto
+ 8, Data (yyyyMMdd)
+10, Ammontare (6 parte intera + 4 decimali)
+ 2, Segno (CR|DR) 
